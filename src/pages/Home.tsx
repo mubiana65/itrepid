@@ -26,7 +26,7 @@ const Home: React.FC = () => {
           </div> */}
             <div>
               <h2 className="text-3xl md:text-5xl font-bold text-blue-600 dark:text-orange-600 mb-2">
-                Welcome to ITRPID
+                Welcome to ITREPID
               </h2>
               <p className="text-base md:text-lg font-light dark:text-white">
                 LAYING BEAMS AT THE BACK OF YOUR DREAMS.
