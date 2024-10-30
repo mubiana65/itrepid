@@ -6,10 +6,10 @@ const ThemeToggle: React.FC = () => {
 
   useEffect(() => {
     // Add 'dark' class to HTML element if the theme is dark, otherwise remove it
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
+    if (theme === 'light') {
+      document.documentElement.classList.add('light');
     } else {
-      document.documentElement.classList.remove('dark');
+      document.documentElement.classList.remove('light');
     }
 
     // Save the theme to localStorage
