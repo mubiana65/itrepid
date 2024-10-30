@@ -49,11 +49,11 @@ const Header: React.FC = () => {
       {isMobileMenuOpen && (
         <nav className="fixed top-0 right-0 w-2/3 bg-blue-600 dark:bg-darkBackground h-full shadow-lg transition-transform transform translate-x-0">
           <div className="flex items-center justify-center p-4">
-            <img 
+            {/* <img 
               src={logo} // Include the logo in the mobile menu
               alt="Company Logo" 
               className="w-24 h-24" // Adjust size for the logo in the menu
-            />
+            /> */}
           </div>
           <ul className="flex flex-col space-y-4 mt-4 p-5">
             <li><Link to="/" className="hover:text-gray-300" onClick={closeMobileMenu}>Home</Link></li>
