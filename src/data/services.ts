@@ -46,21 +46,25 @@
 
 export const services = [
   {
+    id: 'service1',
     title: "Construction",
     description: "Comprehensive construction services for residential, commercial, and educational buildings.",
      image: "https://th.bing.com/th/id/R.a2eb553fad94032afc2b6f25910fced0?rik=WjL7z3rv3I73aQ&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2018%2f02%2fConstruction-High-Quality-Wallpaper-1024x683.jpg&ehk=kwtYMSvqAvXVFtKLgEDNNKPp6TStmsEahBT22EnCrEU%3d&risl=&pid=ImgRaw&r=0n"
   },
   {
+    id: 'service2',
     title: "Supply",
     description: "Providing essential products and services for various industries, including electrical and medical equipment.",
      image: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
+    id: 'service3',
     title: "Loans",
     description: "Flexible financial loan services with competitive rates for different needs.",
      image: "https://th.bing.com/th/id/R.4e706ac3fd605263e23b83eed7a12879?rik=Ebs%2fgPvkipVxQg&pid=ImgRaw&r=0"
   },
   {
+    id: 'service4',
     title: "Engineering & Research",
     description: "Offering engineering, research, and technology-based services to support innovation.",
      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
