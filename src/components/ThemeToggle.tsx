@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const ThemeToggle: React.FC = () => {
   // Initialize the theme state based on localStorage or default to 'light'
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
 
   useEffect(() => {
     // Add 'dark' class to HTML element if the theme is dark, otherwise remove it
