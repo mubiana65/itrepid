@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ScrollToTop from '../../scrolltop';
 
 
 const DetailedServicePage: React.FC = () => {
@@ -10,6 +11,7 @@ const DetailedServicePage: React.FC = () => {
 
   return (
     <div className="bg-lightBackground dark:bg-gray-900 text-lightText dark:text-darkText min-h-screen">
+         <ScrollToTop/>
       {/* Header Section with Responsive Video Background */}
       <header className="relative h-96 md:h-80 lg:h-96 bg-blue-800 text-center flex flex-col items-center justify-center text-white">
         {/* Conditional Rendering: Video on larger screens, fallback image on smaller screens */}
