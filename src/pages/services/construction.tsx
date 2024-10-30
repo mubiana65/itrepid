@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
- // Replace with the path to your video file
+
 
 const DetailedServicePage: React.FC = () => {
   useEffect(() => {
@@ -10,17 +10,24 @@ const DetailedServicePage: React.FC = () => {
 
   return (
     <div className="bg-lightBackground dark:bg-gray-900 text-lightText dark:text-darkText min-h-screen">
-      {/* Header Section with Video Background */}
-      <header className="relative h-96 bg-blue-800 text-center flex flex-col items-center justify-center text-white">
-        {/* Video Background */}
-        <video
-          src="https://videos.pexels.com/video-files/2835998/2835998-uhd_2560_1440_24fps.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-70"
-        />
+      {/* Header Section with Responsive Video Background */}
+      <header className="relative h-96 md:h-80 lg:h-96 bg-blue-800 text-center flex flex-col items-center justify-center text-white">
+        {/* Conditional Rendering: Video on larger screens, fallback image on smaller screens */}
+        <div className="absolute inset-0 w-full h-full">
+          <video
+            src="https://videos.pexels.com/video-files/2835998/2835998-uhd_2560_1440_24fps.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="hidden sm:block w-full h-full object-cover opacity-70"
+          />
+          {/* <img
+            src={fallbackImage}
+            alt="Service Overview"
+            className="block sm:hidden w-full h-full object-cover opacity-70"
+          /> */}
+        </div>
         <div className="relative z-10">
           <h1 className="text-5xl font-bold mb-4" data-aos="fade-down">
             Detailed Service Overview
@@ -88,3 +95,5 @@ const DetailedServicePage: React.FC = () => {
 };
 
 export default DetailedServicePage;
+
+
