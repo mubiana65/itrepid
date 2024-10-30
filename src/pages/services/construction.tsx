@@ -30,10 +30,10 @@ const DetailedServicePage: React.FC = () => {
         </div>
         <div className="relative z-10">
           <h1 className="text-5xl font-bold mb-4" data-aos="fade-down">
-            Detailed Service Overview
+            Construction
           </h1>
           <p className="text-xl" data-aos="fade-up">
-            Discover the benefits and details of our premium service.
+            Discover the benefits of our construction services.
           </p>
         </div>
       </header>
@@ -44,7 +44,7 @@ const DetailedServicePage: React.FC = () => {
         <section data-aos="fade-right" className="mb-10">
           <h2 className="text-4xl font-semibold mb-4">What We Offer</h2>
           <p className="text-lg leading-relaxed">
-            Our service provides comprehensive solutions that cater to your needs with precision and excellence. From the initial consultation to the final implementation, we prioritize quality, efficiency, and customer satisfaction.
+          At Itrepid, we specialize in delivering top-notch construction services tailored to meet your unique needs. With years of experience and a commitment to excellence, we bring your projects to life.
           </p>
         </section>
 
