@@ -22,11 +22,11 @@ const DetailedServicePage: React.FC = () => {
             playsInline
             className="hidden sm:block w-full h-full object-cover opacity-70"
           />
-          {/* <img
-            src={fallbackImage}
+          <img
+            src="https://www.shutterstock.com/image-photo/construction-worker-wearing-yellow-hard-600nw-2492762443.jpg"
             alt="Service Overview"
             className="block sm:hidden w-full h-full object-cover opacity-70"
-          /> */}
+          />
         </div>
         <div className="relative z-10">
           <h1 className="text-5xl font-bold mb-4" data-aos="fade-down">
