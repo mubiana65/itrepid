@@ -11,11 +11,13 @@ import EngineeringResearch from './pages/services/engineeringResearch';
 import Supply from './pages/services/supply';
 import Loans from './pages/services/loans';
 import ServiceDetail from './pages/ServiceDetail';
+import ScrollToTop from './scrolltop';
 
 const AppRouter: React.FC = () => {
   return (
     <Router>
       <Header />
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<ServicesPage />} />
