@@ -37,6 +37,15 @@ const Home: React.FC = () => {
 
         {/* Services Section */}
         <div className="bg-gray-100 min-h-screen flex flex-col md:flex-row dark:bg-gradient-to-b from-blue-900 to-black">
+        <div className="w-full md:w-2/3 p-6 md:p-12 dark:bg-transparent">
+            {/* Hero Section */}
+
+
+            {/* Services Section */}
+            <div className="border-spacing-1 ">
+              <Services />
+            </div>
+          </div>
           {/* Left Column - Scrollable Image Gallery */}
           <div className="w-full md:w-1/3 dark:bg-transparent bg-blue-950 text-white flex flex-col items-center p-4 overflow-y-auto h-96 md:h-auto">
             <h3 className="text-xl font-semibold mb-4">Company Staff</h3>
@@ -51,17 +60,7 @@ const Home: React.FC = () => {
               ))}
             </div>
           </div>
-
-          {/* Right Column - Hero and Services Section */}
-          <div className="w-full md:w-2/3 p-6 md:p-12 dark:bg-transparent">
-            {/* Hero Section */}
-
-
-            {/* Services Section */}
-            <div className="border-spacing-1 ">
-              <Services />
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>
