@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 
 function Supply() {
     useEffect(() => {
-        AOS.init({ duration: 1000, easing: 'ease-in-out', once: true });
+        AOS.init({ duration: 1000, easing: 'ease-in-back', once: true });
       }, []);
     
       return (
