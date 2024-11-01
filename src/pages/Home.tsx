@@ -1,6 +1,6 @@
 import React from 'react';
 import Services from '../components/Services';
-import logo from '../Assets/technova.png'; // Import the logo image
+import logo from '../Assets/logo.png'; // Import the logo image
 import { useEffect, useState } from 'react';
 import img1 from '../Assets/imag2.png';
 import img2 from '../Assets/img1.png';
@@ -17,13 +17,13 @@ const Home: React.FC = () => {
         {/* Hero Section */}
         <div className="dark:bg-transparent text-black py-16 px-6 md:px-20 bg-gray-200">
           <div className="flex flex-col md:flex-row items-center justify-center md:space-x-10 text-center md:text-center">
-            {/* <div className="mb-6 md:mb-0">
+            <div className="mb-6 md:mb-0">
             <img
               src={logo} // Use the imported image here
               alt="Company Logo"
               className="w-24 h-24 md:w-40 md:h-40 object-contain mx-auto md:mx-0"
             />
-          </div> */}
+          </div>
             <div>
               <h2 className="text-3xl md:text-5xl font-bold text-blue-600 dark:text-orange-600 mb-2">
                 Welcome to ITREPID
